@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
+import MeusDados from './meusdados';
 
 
 
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <div className="App">
+      <MeusDados />
       <form>
         <div className="linha">
           <p>Digite o nome:</p>
